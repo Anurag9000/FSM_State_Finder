@@ -1,0 +1,16 @@
+@"
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Outputs
+diagrams/
+*.dot
+*.png
+*.svg
+
+# Misc
+.env
+.DS_Store
+"@ | Out-File -Encoding utf8 .gitignore
